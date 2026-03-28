@@ -1,0 +1,30 @@
+# ── Week 1 (carried forward) ──────────────────────
+pymupdf==1.25.3
+chromadb==1.0.15
+sentence-transformers==3.0.1
+openai==1.95.1
+python-dotenv==1.0.1
+tqdm==4.67.1
+numpy==1.26.4
+
+# ── Week 2 (carried forward) ─────────────────────
+anthropic>=0.45.0
+mistralai>=1.5.0
+cohere>=5.13.0
+
+# ── Week 3 (carried forward) ─────────────────────
+ragas>=0.2.0
+datasets>=3.0.0
+pandas>=2.2.0
+streamlit>=1.40.0
+plotly>=5.24.0
+rouge-score>=0.1.2
+nltk>=3.9.0
+
+# ── Week 4 (NEW) ─────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+pinecone-client>=5.0.0
+pydantic>=2.10.0
+httpx>=0.28.0

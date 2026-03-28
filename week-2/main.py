@@ -111,7 +111,7 @@ def main() -> None:
     parser.add_argument(
         "--llm",
         default=DEFAULT_LLM_PROVIDER,
-        choices=["openai", "anthropic", "mistral"],
+        choices=["openai", "azure_openai", "anthropic", "mistral"],
         help="LLM provider for generation",
     )
     parser.add_argument(

@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  # ── FastAPI Backend ──────────────────────────────
+  api:
+    build: .
+    container_name: docmind-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+      - ./results:/app/results
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ── Streamlit Frontend ──────────────────────────
+  frontend:
+    build: .
+    container_name: docmind-frontend
+    command: ["python", "main.py", "frontend"]
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

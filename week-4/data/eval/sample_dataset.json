@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the main topic of this document?",
+    "ground_truth": "The document covers its primary subject matter and key themes.",
+    "metadata": {"category": "general", "difficulty": "easy"}
+  },
+  {
+    "question": "What are the key findings or conclusions presented?",
+    "ground_truth": "The document presents its primary findings, conclusions, and takeaways.",
+    "metadata": {"category": "summary", "difficulty": "easy"}
+  },
+  {
+    "question": "What methodology or approach is described in the document?",
+    "ground_truth": "The document describes the methods, frameworks, or approaches used in its analysis.",
+    "metadata": {"category": "methodology", "difficulty": "medium"}
+  },
+  {
+    "question": "What evidence or data supports the main claims?",
+    "ground_truth": "The document provides data, statistics, examples, or references to support its claims.",
+    "metadata": {"category": "evidence", "difficulty": "medium"}
+  },
+  {
+    "question": "What recommendations or next steps are suggested?",
+    "ground_truth": "The document recommends actions, strategies, or directions for future work.",
+    "metadata": {"category": "recommendations", "difficulty": "medium"}
+  },
+  {
+    "question": "Who is the intended audience for this document?",
+    "ground_truth": "The document is targeted at a specific audience such as researchers, practitioners, or decision-makers.",
+    "metadata": {"category": "audience", "difficulty": "easy"}
+  },
+  {
+    "question": "What problem or challenge does the document address?",
+    "ground_truth": "The document identifies and addresses a specific problem, gap, or challenge in its domain.",
+    "metadata": {"category": "problem", "difficulty": "medium"}
+  },
+  {
+    "question": "What are the limitations or caveats mentioned?",
+    "ground_truth": "The document acknowledges limitations, constraints, or areas where further work is needed.",
+    "metadata": {"category": "limitations", "difficulty": "hard"}
+  },
+  {
+    "question": "How does this work compare to previous approaches?",
+    "ground_truth": "The document compares its approach to prior work, existing methods, or competing solutions.",
+    "metadata": {"category": "comparison", "difficulty": "hard"}
+  },
+  {
+    "question": "What are the practical implications of the findings?",
+    "ground_truth": "The findings have practical implications for implementation, policy, or real-world applications.",
+    "metadata": {"category": "implications", "difficulty": "hard"}
+  },
+  {
+    "question": "What definitions or key terms are introduced?",
+    "ground_truth": "The document defines key terms, concepts, or frameworks used throughout the text.",
+    "metadata": {"category": "definitions", "difficulty": "easy"}
+  },
+  {
+    "question": "What is the structure or organization of the document?",
+    "ground_truth": "The document is organized into sections covering introduction, methods, results, and conclusions.",
+    "metadata": {"category": "structure", "difficulty": "easy"}
+  },
+  {
+    "question": "What tools, technologies, or resources are mentioned?",
+    "ground_truth": "The document references specific tools, software, technologies, or resources used.",
+    "metadata": {"category": "tools", "difficulty": "medium"}
+  },
+  {
+    "question": "What is the scope of the analysis presented?",
+    "ground_truth": "The document defines the scope, boundaries, and focus areas of its analysis.",
+    "metadata": {"category": "scope", "difficulty": "medium"}
+  },
+  {
+    "question": "Are there any case studies or examples provided?",
+    "ground_truth": "The document includes case studies, examples, or illustrative scenarios to support its points.",
+    "metadata": {"category": "examples", "difficulty": "medium"}
+  },
+  {
+    "question": "What timeline or milestones are discussed?",
+    "ground_truth": "The document outlines timelines, deadlines, milestones, or phases of work.",
+    "metadata": {"category": "timeline", "difficulty": "medium"}
+  },
+  {
+    "question": "What are the costs or resource requirements mentioned?",
+    "ground_truth": "The document discusses costs, budgets, resource requirements, or efficiency considerations.",
+    "metadata": {"category": "costs", "difficulty": "hard"}
+  },
+  {
+    "question": "What risks or challenges are identified?",
+    "ground_truth": "The document identifies potential risks, challenges, obstacles, or failure modes.",
+    "metadata": {"category": "risks", "difficulty": "hard"}
+  },
+  {
+    "question": "What is the background context for this work?",
+    "ground_truth": "The document provides background context, history, or motivation for the work presented.",
+    "metadata": {"category": "background", "difficulty": "easy"}
+  },
+  {
+    "question": "What metrics or evaluation criteria are used?",
+    "ground_truth": "The document uses specific metrics, KPIs, or evaluation criteria to measure success.",
+    "metadata": {"category": "metrics", "difficulty": "hard"}
+  }
+]

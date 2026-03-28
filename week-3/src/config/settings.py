@@ -40,3 +40,8 @@ MISTRAL_CHAT_MODEL = os.getenv("MISTRAL_CHAT_MODEL", "mistral-small-latest")
 DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "5"))
 RERANK_TOP_N = int(os.getenv("RERANK_TOP_N", "3"))
 COHERE_RERANK_MODEL = os.getenv("COHERE_RERANK_MODEL", "rerank-v3.5")
+
+# ── Evaluation (NEW Week 3) ──────────────────────────────────
+EVAL_DATASET_PATH = os.getenv("EVAL_DATASET_PATH", "./data/eval/dataset.json")
+EVAL_LLM_JUDGE_PROVIDER = os.getenv("EVAL_LLM_JUDGE_PROVIDER", "openai")
+RESULTS_DIR = os.getenv("RESULTS_DIR", "./results")
