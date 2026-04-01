@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(cp /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-3/src/ingestion/*.py /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-4/src/ingestion/)",
+      "Bash(cp /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-3/src/retrieval/*.py /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-4/src/retrieval/)",
+      "Bash(cp /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-3/src/generation/*.py /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-4/src/generation/)",
+      "Bash(cp /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-3/src/evaluation/*.py /c/Users/aditya.sanjay/Desktop/Projects/docmind/week-4/src/evaluation/)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git filter-branch:*)",
+      "Bash(git update-ref:*)",
+      "Bash(git reflog:*)",
+      "Bash(git gc:*)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --msg-filter 'sed \"\"/^Co-Authored-By:/d\"\"' -- --all)",
+      "Bash(gh api:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
