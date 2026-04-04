@@ -1,0 +1,11 @@
+[
+  {
+    "question": "What is the purpose of the NovaTech Solutions Inc. Internal Knowledge Base document?",
+    "ground_truth": "The document serves as a comprehensive reference for NovaTech Solutions Inc., covering the company's history, organizational structure, product portfolio, human-resources policies, IT security guidelines, and financial performance, and is intended for internal use and testing Retrieval-Augmented Generation (RAG) pipelines.",
+    "metadata": {
+      "source": "sample.pdf",
+      "page": 1,
+      "auto_generated": true
+    }
+  }
+]

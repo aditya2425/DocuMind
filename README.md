@@ -1,4 +1,4 @@
-# DocuMind — Intelligent Document Q&A
+# DocuMind — Intelligent Document Q&A 
 
 A production-grade Retrieval-Augmented Generation (RAG) system that ingests PDFs, chunks them intelligently, retrieves relevant context via hybrid search, reranks results, generates cited answers using multiple LLM providers, evaluates pipeline quality with RAGAS-style metrics, and serves everything through a REST API with a web frontend.
 
@@ -803,15 +803,3 @@ This project demonstrates the following skills mapped to real GenAI job requirem
 
 ---
 
-## Interview Questions This Prepares You For
-
-1. **What chunking strategy would you use for legal documents vs. code documentation? Why?**
-2. **How do you evaluate a RAG pipeline beyond just "does the answer look right"?**
-3. **When would you use hybrid search vs. pure semantic search?**
-4. **How do you handle hallucinations in RAG systems?**
-5. **Walk me through how you would debug a RAG system that returns irrelevant context.**
-6. **Compare dense retrieval vs. BM25 — when does each shine?**
-7. **What is the role of reranking in a RAG pipeline?**
-8. **How would you migrate a RAG system from local dev (ChromaDB) to production (Pinecone)?**
-9. **What metrics would you use to evaluate a RAG system and why?**
-10. **How would you design an API for a document Q&A system?**
